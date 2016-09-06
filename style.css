@@ -1,0 +1,39 @@
+*{
+  font-family:"Helvetica Neue" sans-serif;
+}
+
+#subtitle {
+  text-align: center;
+}
+#cont{
+  box-sizing: border-box;
+  padding: 5%;
+  position: static;
+}
+body{
+  background-color: #ede7f6;
+}
+#footerLink{
+  color: white;
+}
+#footerLink:hover{
+  padding-top: 1%;
+  color: #EDE7F6;
+}
+#bpm{
+  color: #7B1FA2;
+}
+#indicator{
+border: 2px hidden black;
+background-color: #9575cd;
+border-radius: 70%;
+width:30%;
+padding-bottom: 30%;
+margin: auto;
+position: relative;
+}
+#indicator:active{
+  padding-bottom: 29.5%;
+  width:29.5%;
+  margin-bottom:0.5%;
+}

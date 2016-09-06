@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+  <nav>
+    <div class="nav-wrapper deep purple darken-2">
+      <a href="#" class="brand-logo center"><h4>ClickTrack.js</h4></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h6 id="subtitle">Keeping Time In Your Browser</h6>
+  <div id="cont">
+  <div>
+  <div id="indicator">
+  </div>
+  </div>
+  </div>
+<div class="container">
+<div class="input-field col l6 m4 s6">
+    <select>
+      <option value="3/4" id="3/4">3/4</option>
+      <option value="4/4" id="4/4" selected>4/4</option>
+      <option value="5/4" id="5/4">5/4</option>
+      <option value="6/8" id="6/8">6/8</option>
+      <option value="7/8" id="7/8">7/8</option>
+      <option value="9/8" id="9/8">9/8</option>
+    </select>
+    <label>Time Signature</label>
+  </div>
+  <form action="#">
+    <label>Beats Per Minute</label>
+    <p class="range-field col l6 m4 s6">
+      <input type="range" id="bpm" min="20" max="300" />
+    </p>
+  </form>
+</div>
+  <footer class="page-footer deep purple darken-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h6 class="white-text">ClickTrack.js</h6>
+                <p class="grey-text text-lighten-4">A week 5 project at <a id="footerLink" href="http://www.galvanize.com">Galvanize Seattle</a></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="about.html">about</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Michael Stanton
+            </div>
+          </div>
+        </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
