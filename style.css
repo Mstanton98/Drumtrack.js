@@ -1,5 +1,6 @@
 *{
   font-family:"Helvetica Neue" sans-serif;
+  box-sizing: border-box;
 }
 
 #subtitle {
@@ -13,10 +14,10 @@
 body{
   background-color: #ede7f6;
 }
-#footerLink{
+.footCon{
   color: white;
 }
-#footerLink:hover{
+.footCon:hover{
   padding-top: 1%;
   color: #EDE7F6;
 }
@@ -27,13 +28,77 @@ body{
 border: 2px hidden black;
 background-color: #9575cd;
 border-radius: 70%;
-width:30%;
-padding-bottom: 30%;
-margin: auto;
+width:25%;
+padding-bottom: 25%;
 position: relative;
 }
 #indicator:active{
-  padding-bottom: 29.5%;
-  width:29.5%;
+  padding-bottom: 24.5%;
+  width:24.5%;
   margin-bottom:0.5%;
+  margin-right: 0.5%;
+}
+#indicator2{
+border: 2px hidden black;
+background-color: #9575cd;
+border-radius: 70%;
+width:25%;
+padding-bottom: 25%;
+position: relative;
+}
+#indicator2:active{
+  padding-bottom: 24.5%;
+  width:24.5%;
+  margin-bottom:0.5%;
+  margin-right: 0.5%;
+
+}
+#indicator3{
+border: 2px hidden black;
+background-color: #9575cd;
+border-radius: 70%;
+width:25%;
+padding-bottom: 25%;
+position: relative;
+}
+#indicator3:active{
+  padding-bottom: 24.5%;
+  width:24.5%;
+  margin-bottom:0.5%;
+  margin-right: 0.5%;
+}
+#indicator4{
+border: 2px hidden black;
+background-color: #9575cd;
+border-radius: 70%;
+width:25%;
+padding-bottom: 25%;
+position: relative;
+}
+#indicator4:active{
+  padding-bottom: 24.5%;
+  width:24.5%;
+  margin-bottom:0.5%;
+  margin-top:0.5%;
+  margin-right:0.5%;
+}
+#photo{
+  width: auto;
+  margin-left: 2%;
+  border: 4px #9575cd solid;
+  box-shadow: 2px 2px 2px grey;
+}
+#cont{
+  padding-bottom: 2%;
+}
+#controls{
+margin-left: 7%;
+padding-bottom: 13%;
+}
+#control4{
+  padding-left: 8%;
+}
+#tech{
+  margin:auto;
+  padding-bottom: 13%;
 }
