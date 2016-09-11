@@ -21,6 +21,13 @@ body{
   padding-top: 1%;
   color: #EDE7F6;
 }
+.footCon{
+  color: white;
+}
+.footCon:hover{
+  padding-top: 1%;
+  color: #EDE7F6;
+}
 #bpm{
   color: #7B1FA2;
 }
