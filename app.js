@@ -1,8 +1,8 @@
 (function(){
 
 $('select').material_select();
-
-var $xhr = $.getJSON(`https://api.myjson.com/bins/5b94e`);
+//https://api.myjson.com/bins/5b94e
+var $xhr = $.getJSON(`https://api.myjson.com/bins/4zupe`);
 
 $xhr.done(function(obj) {
   if ($xhr.status !== 200) {
