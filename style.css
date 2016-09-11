@@ -14,10 +14,10 @@
 body{
   background-color: #ede7f6;
 }
-.footCon{
+#footCon{
   color: white;
 }
-.footCon:hover{
+#footCon:hover{
   padding-top: 1%;
   color: #EDE7F6;
 }
