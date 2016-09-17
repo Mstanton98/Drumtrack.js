@@ -1,36 +1,43 @@
-*{
-  box-sizing: border-box;
+* {  box-sizing: border-box;
 }
 
 #subtitle {
   text-align: center;
 }
-#cont{
+
+#cont {
   box-sizing: border-box;
   padding: 5%;
   position: static;
 }
-body{
+
+body {
   background-color: #ede7f6;
 }
-#footCon{
+
+#footCon {
   color: white;
 }
-#footCon:hover{
+
+#footCon:hover {
   padding-top: 1%;
   color: #EDE7F6;
 }
-.footCon{
+
+.footCon {
   color: white;
 }
-.footCon:hover{
+
+.footCon:hover {
   padding-top: 1%;
   color: #EDE7F6;
 }
-#bpm{
+
+#bpm {
   color: #7B1FA2;
 }
-#indicator{
+
+#indicator, #indicator2, #indicator3, #indicator4 {
 border: 2px hidden black;
 background-color: #9575cd;
 border-radius: 70%;
@@ -38,73 +45,53 @@ width:25%;
 padding-bottom: 25%;
 position: relative;
 }
-#indicator:active{
+
+#indicator:active {
   padding-bottom: 24.5%;
   width:24.5%;
   margin-bottom:0.5%;
   margin-right: 0.5%;
 }
-#indicator2{
-border: 2px hidden black;
-background-color: #9575cd;
-border-radius: 70%;
-width:25%;
-padding-bottom: 25%;
-position: relative;
-}
-#indicator2:active{
+
+#indicator2:active {
   padding-bottom: 24.5%;
   width:24.5%;
   margin-bottom:0.5%;
   margin-right: 0.5%;
 
 }
-#indicator3{
-border: 2px hidden black;
-background-color: #9575cd;
-border-radius: 70%;
-width:25%;
-padding-bottom: 25%;
-position: relative;
-}
-#indicator3:active{
+
+#indicator3:active {
   padding-bottom: 24.5%;
   width:24.5%;
   margin-bottom:0.5%;
   margin-right: 0.5%;
+  border-width: 0.5%;
+
 }
-#indicator4{
-border: 2px hidden black;
-background-color: #9575cd;
-border-radius: 70%;
-width:25%;
-padding-bottom: 25%;
-position: relative;
-}
-#indicator4:active{
+
+#indicator4:active {
   padding-bottom: 24.5%;
   width:24.5%;
-  margin-bottom:0.5%;
-  margin-top:0.5%;
-  margin-right:0.5%;
+  margin-top: 0.5%;
+  border-width: 0.5%;
+  margin-left: 0.5%;
 }
-#photo{
-  width: auto;
-  margin-left: 2%;
-  border: 4px #9575cd solid;
-  box-shadow: 2px 2px 2px grey;
-}
-#cont{
+
+#cont {
   padding-bottom: 2%;
 }
-#controls{
+
+#controls {
 margin-left: 7%;
 padding-bottom: 13%;
 }
-#control4{
+
+#control4 {
   padding-left: 8%;
 }
-#tech{
+
+#tech {
   margin:auto;
   padding-bottom: 13%;
 }
