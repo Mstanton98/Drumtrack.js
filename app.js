@@ -6,7 +6,6 @@
     if ($xhr.status !== 200) {
       return;
     }
-
     const context = new (window.AudioContext || window.webkitAudioContext)();
 
     const circle = document.getElementById('indicator');
